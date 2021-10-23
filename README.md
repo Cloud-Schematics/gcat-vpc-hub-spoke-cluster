@@ -1,4 +1,4 @@
-# GCAT OpenShift Hub and Spoke VPC
+# Multi-zone VPCs connecting using Transit Gateway
 
 This module creates two multitier VPCs and connects them via [IBM Cloud Transit Gateway](https://cloud.ibm.com/docs/transit-gateway?topic=transit-gateway-getting-started). It creates a ROKS cluster on the spoke VPC, and bastion VSI on the hub VPC.
 
